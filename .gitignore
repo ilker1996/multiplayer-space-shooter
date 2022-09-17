@@ -1,0 +1,52 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases #
+######################
+log/
+*.log
+*.sqlite
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## Maven ##
+backend/target/
+multiplayer/target/
+frontend/target
+.mvn/
+
+
+*.jar
+*.war
+
+!executables/frontend.jar
+!executables/backend.war
+!executables/multiplayer.war
+

@@ -1,0 +1,70 @@
+
+/* Style of the all the buttons */
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+/* Background o the message screen objects*/
+.message-background{
+    -fx-background-image: url('space.gif');
+    -fx-background-size: 100% 100%;
+}
+
+/* Background of the game level backgrounds */
+.game-screen{
+    -fx-background-image: url('game_bg.png');
+    -fx-background-size: 100% 100%;
+}
+
+/* Style of the forms (i.e. CustomForm) */
+.form{
+    -fx-background-color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+}
+
+.connector{
+    -fx-background-color: linear-gradient(to top, #79d8fb 0%, #eeee7b 100%);
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+}
+
+/*Style of each column header in the tableView*/
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+/* Style of each column header's background in the tableView */
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0.0%, #424141 100.0%);
+}
+
+/* Style of each column header's label  in the tableView */
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-font-weight:bold;
+    -fx-text-fill: white;
+}
+
+ /* Style of each column in the tableView */
+.table-view .table-column{
+    -fx-alignment:center;
+}
+
+ /* Style of each table cell */
+.table-view .table-cell{
+    -fx-font-weight:bold;
+    -fx-font-size: 15px;
+
+}
+ /* Style of each entire row in the table view when is hovered */
+.table-row-cell:hover {
+    -fx-background-color:orange;
+}
